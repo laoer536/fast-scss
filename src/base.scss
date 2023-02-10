@@ -1,4 +1,4 @@
-@mixin more-line-ellipsis($line:1) {
+@mixin more-line-ellipsis($line: 1) {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -6,7 +6,7 @@
   -webkit-box-orient: vertical;
 }
 
-@mixin one-line-ellipsis($maxWidth:100%) {
+@mixin one-line-ellipsis($maxWidth: 100%) {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
