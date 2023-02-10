@@ -1,21 +1,22 @@
 {
   "name": "fast-css",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "scss-mixin",
   "files": [
-    "*.scss"
+    "dist/*"
   ],
   "scripts": {
-    "minify": "postcss src --dir dist"
+    "build": "postcss src --dir dist",
+    "release": "pnpm build && standard-version && git push --follow-tags && pnpm publish"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "cssnano": "^5.1.14",
     "postcss": "^8.4.21",
-    "postcss-cli": "^10.1.0"
+    "postcss-cli": "^10.1.0",
+    "standard-version": "^9.5.0"
   }
 }
