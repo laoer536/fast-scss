@@ -1,0 +1,21 @@
+{
+  "name": "fast-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "*.scss"
+  ],
+  "scripts": {
+    "minify": "postcss src --dir dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0"
+  }
+}
