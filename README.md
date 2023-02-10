@@ -1,2 +1,2 @@
-# fast-css
-fast-css for font-end prject.
+# fast-scss
+fast-scss for font-end sass project.

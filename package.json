@@ -1,5 +1,5 @@
 {
-  "name": "fast-css",
+  "name": "fast-scss",
   "version": "1.0.0",
   "description": "scss-mixin",
   "files": [
@@ -15,8 +15,11 @@
   "devDependencies": {
     "autoprefixer": "^10.4.13",
     "cssnano": "^5.1.14",
+    "eslint": "^8.33.0",
+    "eslint-config-code-style-lint": "^3.0.6",
     "postcss": "^8.4.21",
     "postcss-cli": "^10.1.0",
+    "prettier": "^2.8.4",
     "standard-version": "^9.5.0"
   }
 }
