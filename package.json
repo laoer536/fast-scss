@@ -1,24 +1,24 @@
 {
   "name": "fast-scss",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "scss-mixin",
   "main": "dist/index.scss",
   "files": [
     "dist/*"
   ],
-  "scripts": {
-    "build": "postcss packages/src/**/*.scss --dir dist",
-    "release": "pnpm build && standard-version && git push --follow-tags && pnpm publish",
-    "dev:web": "vite",
-    "build:web": "vue-tsc && vite build",
-    "preview:web": "vite preview"
-  },
-  "keywords": [
-    "scss-mixin",
-    "scss",
-    "fast-scss",
-    "scss-faster"
+  "workspaces": [
+    "packages/*"
   ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "build:pkg": "postcss packages/fast-scss/src/**/*.scss --dir packages/dist",
+    "release:pkg": "pnpm build:pkg && standard-version"
+  },
+  "standard-version": {
+    "path": "."
+  },
   "author": "",
   "repository": "git@github.com:laoer536/fast-scss.git",
   "license": "MIT",
