@@ -9,7 +9,7 @@
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
-    "release:pkg": "standard-version && pnpm --filter fast-scss release"
+    "release:pkg": "pnpm --filter fast-scss release"
   },
   "standard-version": {
     "path": "./packages/fast-scss"
