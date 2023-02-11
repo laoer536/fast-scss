@@ -7,4 +7,7 @@ const curEnv = loadEnv('', process.cwd())
 export default defineConfig({
   plugins: [vue(), Pages()],
   base: curEnv.VITE_PUBLIC_PATH,
+  build: {
+    outDir: 'docs',
+  },
 })

@@ -7,7 +7,7 @@
     "dist/*"
   ],
   "scripts": {
-    "build": "postcss packages/src/**/*.scss --dir packages/dist",
+    "build": "postcss packages/src/**/*.scss --dir dist",
     "release": "pnpm build && standard-version && git push --follow-tags && pnpm publish",
     "dev:web": "vite",
     "build:web": "vue-tsc && vite build",
@@ -22,10 +22,6 @@
   "author": "",
   "repository": "git@github.com:laoer536/fast-scss.git",
   "license": "MIT",
-  "dependencies": {
-    "vue": "^3.2.45",
-    "vue-router": "^4.1.6"
-  },
   "devDependencies": {
     "@types/node": "^18.13.0",
     "@vitejs/plugin-vue": "^4.0.0",
@@ -41,6 +37,8 @@
     "typescript": "^4.9.3",
     "vite": "^4.1.0",
     "vite-plugin-pages": "^0.28.0",
-    "vue-tsc": "^1.0.24"
+    "vue-tsc": "^1.0.24",
+    "vue": "^3.2.45",
+    "vue-router": "^4.1.6"
   }
 }
