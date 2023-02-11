@@ -1,0 +1,22 @@
+{
+  "name": "fast-scss",
+  "version": "0.0.1",
+  "description": "scss-mixin",
+  "main": "dist/index.scss",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "postcss src/**/*.scss --dir dist",
+    "release": "pnpm build && standard-version && git push --follow-tags && pnpm publish"
+  },
+  "keywords": [
+    "scss-mixin",
+    "scss",
+    "fast-scss",
+    "scss-faster"
+  ],
+  "author": "",
+  "repository": "git@github.com:laoer536/fast-scss.git",
+  "license": "MIT"
+}
