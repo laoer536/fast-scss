@@ -1,6 +1,6 @@
 {
   "name": "fast-scss",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "scss-mixin",
   "main": "dist/index.scss",
   "files": [
@@ -17,7 +17,7 @@
     "release:pkg": "pnpm build:pkg && standard-version"
   },
   "standard-version": {
-    "path": "."
+    "path": "./packages/fast-scss"
   },
   "author": "",
   "repository": "git@github.com:laoer536/fast-scss.git",
