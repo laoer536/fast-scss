@@ -1,3 +1,6 @@
+/*
+Multiline overflow omitted（多行溢出省略）
+ */
 @mixin more-line-ellipsis($line: 1) {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -6,10 +9,12 @@
   -webkit-box-orient: vertical;
 }
 
+/*
+Single-line overflow omitted（单行溢出省略）
+ */
 @mixin one-line-ellipsis($maxWidth: 100%) {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   max-width: $maxWidth;
-  backdrop-filter: blur(4px);
 }
