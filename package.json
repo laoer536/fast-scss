@@ -1,6 +1,6 @@
 {
   "name": "fast-scss",
-  "version": "0.1.5",
+  "version": "0.0.12",
   "description": "scss-mixin",
   "workspaces": [
     "packages/*"
@@ -10,6 +10,9 @@
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "release:pkg": "standard-version && pnpm --filter fast-scss release"
+  },
+  "standard-version": {
+    "path": "./packages/fast-scss"
   },
   "author": "",
   "repository": "git@github.com:laoer536/fast-scss.git",
