@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.8](https://github.com/laoer536/fast-scss/compare/v0.1.7...v0.1.8) (2023-02-11)
+
+
+### Bug Fixes
+
+* pnpm workspaces use package name to run project scripts ([149e7e2](https://github.com/laoer536/fast-scss/commit/149e7e25c645147fb490d416602370c5385c56f5))
+
 ### [0.1.7](https://github.com/laoer536/fast-scss/compare/v0.1.6...v0.1.7) (2023-02-11)
 
 ### [0.1.6](https://github.com/laoer536/fast-scss/compare/v0.0.12...v0.1.6) (2023-02-11)
