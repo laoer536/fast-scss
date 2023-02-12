@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.11](https://github.com/laoer536/fast-scss/compare/v0.1.10...v0.1.11) (2023-02-12)
+
+
+### Bug Fixes
+
+* 项目结构变更 ([03a2ccb](https://github.com/laoer536/fast-scss/commit/03a2ccbf5292a08b11db18c5428e47cecb07bf19))
+
 ### [0.1.10](https://github.com/laoer536/fast-scss/compare/v0.1.9...v0.1.10) (2023-02-12)
 
 
