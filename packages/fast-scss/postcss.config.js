@@ -1,0 +1,9 @@
+module.exports = {
+  syntax: 'postcss-scss',
+  plugins: [
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    require('autoprefixer')({ cascade: false }),
+    // eslint-disable-next-line @typescript-eslint/no-var-requires
+    require('cssnano')({ preset: 'default' }),
+  ],
+}
