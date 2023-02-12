@@ -7,7 +7,7 @@
     "dist/*"
   ],
   "scripts": {
-    "build": "postcss src/**/*.scss --base src --dir dist",
+    "build": "postcss src --base src --dir dist",
     "release": "pnpm build && standard-version && git push --follow-tags && pnpm publish"
   },
   "keywords": [
