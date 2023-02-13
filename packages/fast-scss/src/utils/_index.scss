@@ -3,7 +3,7 @@ $namespace: 'fast';
  join var name
   join-var-name(('button', 'text-color')) => '--#{namespace}-button-text-color'
  */
-@function join-var-name($list, $namespace) {
+@function join-var-name($list) {
   $name: '--' + $namespace;
   @each $item in $list {
     @if $item != '' {

@@ -6,4 +6,8 @@
 
 <script setup lang="ts"></script>
 
-<style lang="scss" scoped></style>
+<style lang="scss">
+p {
+  @include more-line-ellipsis(1);
+}
+</style>

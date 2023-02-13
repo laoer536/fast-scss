@@ -2,7 +2,7 @@
   "name": "fast-scss",
   "version": "0.1.11",
   "description": "scss-mixin",
-  "main": "dist/index.scss",
+  "main": "dist/_index.scss",
   "files": [
     "dist/*"
   ],
