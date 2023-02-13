@@ -14,7 +14,7 @@ $namespace: 'fast';
 }
 
 /*
- get-css-var('button', 'text-color') => var(--el-button-text-color)
+ get-css-var('button', 'text-color') => var(--#{namespace}-button-text-color)
  */
 @function get-css-var($args...) {
   @return var(#{join-var-name($args)});
