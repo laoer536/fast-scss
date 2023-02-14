@@ -1,6 +1,6 @@
 {
   "name": "fast-scss",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "scss-mixin",
   "main": "dist/_index.scss",
   "files": [
@@ -8,7 +8,7 @@
   ],
   "scripts": {
     "build": "pnpm standard:scss && postcss src --base src --dir dist",
-    "standard:scss":"sass-migrator --migrate-deps module src/**/*.scss",
+    "standard:scss": "sass-migrator --migrate-deps module src/**/*.scss",
     "release": "pnpm build && standard-version && git push --follow-tags && pnpm publish"
   },
   "keywords": [

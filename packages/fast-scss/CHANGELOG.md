@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.12](https://github.com/laoer536/fast-scss/compare/v0.1.11...v0.1.12) (2023-02-14)
+
+
+### Features
+
+* colors add ([7d98b09](https://github.com/laoer536/fast-scss/commit/7d98b09afca51fc8e53efdcc8ddbb3ea226f1f6b))
+* demo for fast scss & workspace to link fast-scss ([d3c4cf8](https://github.com/laoer536/fast-scss/commit/d3c4cf80182db289277aacd82a41291d11f259da))
+
+
+### Bug Fixes
+
+* utils ([333ef68](https://github.com/laoer536/fast-scss/commit/333ef689cfa6585b10cb3f36fbf5f33c1c10f688))
+
 ### [0.1.11](https://github.com/laoer536/fast-scss/compare/v0.1.10...v0.1.11) (2023-02-12)
 
 
