@@ -7,7 +7,8 @@
     "dist/*"
   ],
   "scripts": {
-    "build": "postcss src --base src --dir dist",
+    "build": "pnpm standard:scss && postcss src --base src --dir dist",
+    "standard:scss":"sass-migrator --migrate-deps module src/**/*.scss",
     "release": "pnpm build && standard-version && git push --follow-tags && pnpm publish"
   },
   "keywords": [
@@ -20,10 +21,11 @@
   "repository": "git@github.com:laoer536/fast-scss.git",
   "license": "MIT",
   "devDependencies": {
-    "postcss-scss": "^4.0.6",
+    "autoprefixer": "^10.4.13",
     "cssnano": "^5.1.14",
     "postcss": "^8.4.21",
-    "autoprefixer": "^10.4.13",
-    "postcss-cli": "^10.1.0"
+    "postcss-cli": "^10.1.0",
+    "postcss-scss": "^4.0.6",
+    "sass-migrator": "^1.7.2"
   }
 }
