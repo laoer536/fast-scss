@@ -1,6 +1,8 @@
 # fast-scss
 fast-scss for font-end sass project.
 
+Browser global default style has been reset for you, see it at [fast-scss/_index.scss at main · laoer536/fast-scss (github.com)](https://github.com/laoer536/fast-scss/blob/main/packages/fast-scss/src/reset/_index.scss)
+
 ### How to use
 
 - pnpm
