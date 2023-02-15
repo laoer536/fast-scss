@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.13](https://github.com/laoer536/fast-scss/compare/v0.1.12...v0.1.13) (2023-02-15)
+
+
+### Features
+
+* reset html style add ([a5df181](https://github.com/laoer536/fast-scss/commit/a5df181892f798e71cdb4e3a4a22565ac979d087))
+
 ### [0.1.12](https://github.com/laoer536/fast-scss/compare/v0.1.11...v0.1.12) (2023-02-14)
 
 
