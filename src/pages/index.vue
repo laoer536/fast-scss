@@ -3,7 +3,7 @@ import HelloWorld from '../components/HelloWorld.vue'
 </script>
 
 <template>
-  <div>
+  <div class="icons">
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>
@@ -14,4 +14,15 @@ import HelloWorld from '../components/HelloWorld.vue'
   <HelloWorld msg="Vite + Vue" />
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+.icons {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  margin-bottom: 3em;
+  img {
+    width: 5em;
+    height: 5em;
+  }
+}
+</style>

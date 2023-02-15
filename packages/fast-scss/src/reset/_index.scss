@@ -11,6 +11,7 @@
   border-width: 0; /* 2 */
   border-style: solid; /* 2 */
   border-color: currentColor; /* 2 */
+  -webkit-tap-highlight-color: transparent;
 }
 
 ::before,
