@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.14](https://github.com/laoer536/fast-scss/compare/v0.1.13...v0.1.14) (2023-02-15)
+
+
+### Bug Fixes
+
+* demo scss load ([b633e05](https://github.com/laoer536/fast-scss/commit/b633e05030f9cffde46cc91cd54bcfe4573a2a3c))
+* demo scss load ([43ac0ba](https://github.com/laoer536/fast-scss/commit/43ac0bad74fb474bac0c1cd0b263f30e931f1979))
+
 ### [0.1.13](https://github.com/laoer536/fast-scss/compare/v0.1.12...v0.1.13) (2023-02-15)
 
 

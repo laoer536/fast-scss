@@ -1,6 +1,6 @@
 {
   "name": "fast-scss",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "scss-mixin",
   "main": "dist/_index.scss",
   "files": [
