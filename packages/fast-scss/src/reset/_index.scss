@@ -2,8 +2,8 @@
 /*
 1. Prevent padding and border from affecting element width.
 2. Allow adding a border to an element by just adding a border-width. 
+*/
 
-*,
 ::before,
 ::after {
   box-sizing: border-box; /* 1 */
